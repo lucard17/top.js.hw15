@@ -1,0 +1,132 @@
+@media (min-width: 0px) and (max-width: 768px) {
+  :root {
+    --msg-height: 0;
+  }
+  .container {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  #feedback h2 {
+    font-size: 27px;
+    margin: 3.5rem 0.75rem 0;
+  }
+  #feedback h2 span {
+    display: none;
+  }
+  .owl-carousel .owl-stage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .owl-carousel .owl-item {
+    flex-shrink: 0;
+  }
+  .owl-carousel .carousel-item {
+    padding: 1.6rem 1.6rem;
+    height: 100%;
+    border: 1px solid var(--accent-color);
+  }
+  .carousel-section {
+    margin: 2.5rem 1rem 0;
+  }
+  .owl-carousel .carousel-item .awatar {
+    width: 100px;
+    height: auto;
+  }
+  .owl-carousel .carousel-item .name {
+    font-size: 10px;
+    margin-top: 16px;
+  }
+  .owl-carousel .carousel-item hr {
+    margin-top: 22px;
+  }
+  .owl-carousel .carousel-item .company {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .owl-carousel .carousel-item .feedback {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1200px) {
+  .carousel-section .msg {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 570px;
+  }
+  #feedback h2 span {
+    display: unset;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --msg-height: 0;
+  }
+  .container {
+    max-width: 720px;
+  }
+  #feedback h2 span {
+    display: none;
+  }
+  .owl-carousel .carousel-item {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  #feedback h2 {
+    margin: 4.5rem 0.75rem 0;
+  }
+  .owl-carousel .owl-nav {
+    top: -9.825rem;
+  }
+  .owl-carousel .owl-nav button,
+  .owl-carousel .owl-nav button:not(.disabled) {
+    width: 76px;
+    height: 76px;
+  }
+}
+@media (min-width: 992px) {
+  #feedback h2 span {
+    display: unset;
+  }
+  .container {
+    max-width: 960px;
+  }
+  .carousel-section .msg p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --msg-height: 30;
+  }
+  #feedback h2 {
+    font-size: 52px;
+  }
+  .container {
+    max-width: 1140px;
+  }
+  .carousel-section .msg p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1800px) {
+  :root {
+    --msg-height: 23;
+  }
+  .container {
+    max-width: 1770px;
+  }
+}
